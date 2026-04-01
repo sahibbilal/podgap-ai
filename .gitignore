@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pnp
+.pnp.js
+
+# Env and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Build / output
+.next/
+out/
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# DDEV
+.ddev/
+
+# Logs and DB
+*.log
+*.sqlite3
+*.db
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.jest/
+
+# Misc
+*.bak
+.cache/
